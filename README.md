@@ -21,3 +21,4 @@ The goal of this project is to teach you how to read and write files inside your
 A link to the full description of the assignment can be found above.<br />
 <br />
 A live version of my solution can be found here: 
+[![Run on Repl.it](https://repl.it/badge/github/jasont01/hangman)](https://repl.it/github/jasont01/hangman)

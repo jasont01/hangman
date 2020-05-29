@@ -82,12 +82,10 @@ end
 def new_game
   secret = get_secret
   game = { "secret" => secret, "guesses" => 6, "letters" => ('a'..'z').to_a, "word" => Array.new(secret.length, "_") }
-  p game
   play_game(game)
 end
 
 def play_game(game)
-  p game['secret'] ##testing
 
   while game['guesses'] > 0 && missing_letters(game['word']) > 0
     display_game(game)
